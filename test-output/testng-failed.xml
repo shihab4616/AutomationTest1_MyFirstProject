@@ -5,8 +5,8 @@
     <classes>
       <class name="com.testng.LoginTestNG">
         <methods>
-          <include name="beforeMethod"/>
           <include name="AfterMethod"/>
+          <include name="beforeMethod"/>
           <include name="inValid_TestCase"/>
           <include name="launch_chrome"/>
           <include name="AfterTest"/>
