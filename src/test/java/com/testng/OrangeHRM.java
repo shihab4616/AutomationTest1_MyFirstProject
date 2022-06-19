@@ -25,7 +25,7 @@ public class OrangeHRM {
 		driver.findElement(By.id("btnLogin")).click();
 		
 		
-	}
+	} 
 	
 
 	@Test (priority=4)

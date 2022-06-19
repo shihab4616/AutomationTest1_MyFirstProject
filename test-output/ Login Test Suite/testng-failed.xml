@@ -3,13 +3,14 @@
 <suite name="Failed suite [ Login Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Login Functional Test(failed)">
     <classes>
-      <class name="com.testng.LoginTestNG">
+      <class name="ExtentReports.BasicAction">
         <methods>
-          <include name="inValid_TestCase"/>
-          <include name="launch_chrome"/>
-          <include name="close_chrome"/>
+          <include name="Valid_LoginTest_001"/>
+          <include name="BeforeTest"/>
+          <include name="InValid_LoginTest_002"/>
+          <include name="AfterTest"/>
         </methods>
-      </class> <!-- com.testng.LoginTestNG -->
+      </class> <!-- ExtentReports.BasicAction -->
     </classes>
   </test> <!-- Login Functional Test(failed) -->
 </suite> <!-- Failed suite [ Login Test Suite] -->
